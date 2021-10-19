@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-*{
+* {
 
     box-sizing: border-box;
     margin: 0;
@@ -8,9 +8,9 @@
 }
 
 
-body{
-    
-    min-width: 450px;
+body {
+
+    min-width: 550px;
     display: flex;
     align-items: center;
     justify-content: center start;
@@ -24,7 +24,7 @@ body{
 
 
 
-button{
+button {
 
     margin-top: 6px;
     background: rgb(243, 98, 122);
@@ -40,7 +40,7 @@ button{
     transition: ease-in 0.3s;
 }
 
-button:hover{
+button:hover {
 
     box-shadow: inset 8rem 0 0 0 white;
     border: 1px solid black;
@@ -67,7 +67,7 @@ img {
     position: absolute;
     top: 10px;
     left: 10px;
-    
+
 
 }
 
@@ -92,6 +92,7 @@ main input {
     padding: 0 6px;
 
 }
+
 main input:hover,
 :focus {
 
@@ -109,24 +110,25 @@ main input:hover,
 
 
 
-#unorderStorage{
+#unorderStorage {
 
     margin-top: 2rem;
     list-style-type: none;
 
 }
-#unorderStorage li{
+
+#unorderStorage li {
 
     margin-bottom: 0.6em;
 }
 
-#unorderStorage a{
+#unorderStorage a {
 
     color: rgb(102, 101, 101);
     text-decoration: none;
 }
 
-#unorderStorage a:hover{
+#unorderStorage a:hover {
 
     color: rgb(243, 98, 122);
 }
